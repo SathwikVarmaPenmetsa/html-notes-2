@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        section{
+            background-color: aquamarine;
+        }
+        article{
+            background-color: rgb(68, 202, 226);
+        }
+        header{
+            background-color: rgb(103, 136, 136);
+            padding: 10px;
+        }
+        footer{
+            background-color: rgb(150, 147, 147);
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--header tags-->
+    <h1>h1 heading</h1>
+    <h2>h2 heading</h2>
+    <h3>h3 heading</h3>
+    <h6>h6 heading</h6>
+
+    <!--paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur non dolorem omnis quaerat cupiditate beatae consectetur facilis numquam. Adipisci libero dignissimos possimus architecto laborum maiores sed doloribus explicabo veniam reprehenderit!</p>
+
+    <!--hyperlink-->
+    <a href="facebook.com" title="facebook">facebook</a>
+    <a href="youtube.com"><h1>youtube</h1></a>
+
+    <!--imgtag-->
+    <img src="/img/LEETHU.jpg" alt="babyGirl" height="300px" width="400px" title="babyGirl"><br><br><br>
+
+    <hr><br>
+
+    <h2>textFormattingTags</h2>
+    <!--textFormattingTags-->
+    <strong> strong->bolt font</strong><br>
+    <em>em->itlic font</em><br>
+    <u>u->underline</u><br>
+    <del>del->delect text</del><br>
+    <ins>ins-> tag Lorem ipsum dolor sit amet.</ins><br>
+    <span>sup->Lorem, ipsum dolor.</span><sup>sup tag</sup><br>
+    <span>sub->hy i am sathwik</span><sub>sub tag</sub><br>
+    <mark>marke the text</mark>
+    <br><br><br><hr><br><br>
+
+
+    <!--div-->
+    <div style="background-color: aquamarine; box-shadow: 0 0 10px rgb(48, 47, 47); padding: 20px;" >
+        <!--span-->
+        <span>spanTag</span>
+        <p><span><strong>penmetsa </strong></span><span><em>sathwik </em></span><span><u>varma</u></span></p>
+    </div>
+
+    <br><hr><br>
+
+
+
+    <!--listTags-->
+
+    <div>
+  
+     <ol type="A">
+        <li>mango</li>
+        <li>apple</li>
+        <li>benana</li>
+     </ol>
+
+     <br>
+     <ul type="circle">
+        <li>bmw</li>
+        <li>aodi</li>
+        <li>ww</li>
+     </ul>
+
+    </div>
+    <br><hr><br>
+
+
+    <!--tables-->
+    <table>
+        <caption>sinfo</caption>
+        <colgroup span="2" style="background-color: gold;"></colgroup>
+        <colgroup span="2" style="background-color: rgb(255, 232, 132);"></colgroup>
+        <thead>
+            <tr>
+                <th>sid</th>
+                <th>sname</th>
+                <th>sclass</th>
+                <th>spno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>sathwik</td>
+                <td>mecs</td>
+                <td>9090204808</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>varma</td>
+                <td>mpcs</td>
+                <td>9550869769</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>satish</td>
+                <td>mscs</td>
+                <td>9988722233</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>yashu</td>
+                <td>mecs</td>
+                <td>9390204809</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <br>
+    <br>
+    <table>
+        <colgroup span="1" style="background-color: aqua;"></colgroup>
+        <colgroup span="1" style="background-color: rgb(5, 202, 202);"></colgroup>
+        <colgroup span="1" style="background-color: rgb(65, 136, 136);"></colgroup>
+        <colgroup span="1" style="background-color: rgb(46, 129, 129);"></colgroup>
+        <thead>
+            <tr>
+                <th>sid</th>
+                <th>sname</th>
+                <th colspan="2">sclass</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">101</td>
+                <td>sathwik</td>
+                <td>mecs</td>
+                <td>9090204808</td>
+            </tr>
+            <tr>
+                <td>varma</td>
+                <td>mpcs</td>
+                <td>9550869769</td>
+            </tr>
+            <tr>
+                <td>satish</td>
+                <td>mscs</td>
+                <td>9988722233</td>
+            </tr>
+            <tr>
+                <td>yashu</td>
+                <td>mecs</td>
+                <td>9390204809</td>
+            </tr>
+        </tbody>
+    </table><br><hr><br>
+
+    <!--forms-->
+ 
+    <form action="">
+    <label for="username">yourName:</label>
+    <input type="text" placeholder="name">
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" name="password" id="password">
+    <br><br>
+    <label for="email">youremail:</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="color">color</label>
+    <input type="color" name="color" id="color">
+    <br><br>
+    </form>
+
+    <!--checkbox-->
+    <form action="">
+     <input type="checkbox" name="chickbox" id="html" value="html">
+     <label for="html">html</label><br>
+     <input type="checkbox" name="chickbox" id="css" value="css">
+     <label for="css">css</label><br>
+     <input type="checkbox" name="checkbox" id="js" value="js">
+     <label for="js">js</label>
+    </form>
+    <br><br>
+
+    <!--radiobutton-->
+    <form action="">
+        <input type="radio" name="radio" id="react" value="react">
+        <label for="react">react</label><br>
+        <input type="radio" name="radio" id="python" value="python">
+        <label for="python">python</label><br>
+        <input type="radio" name="radio" id="nextjs" value="nextjs">
+        <label for="nextjs">nextjs</label>
+    </form><br>
+
+    <form action="">
+        <label for="">range</label>
+        <input type="range" name="" id="" min="0" max="1000">1000
+        <br>
+        <input type="reset" value="reset"><br>
+        <input type="tel" name="" id=""><br><br> <hr>
+        <label for="date">date:</label>
+        <input type="date" name="" id=""><br><br>
+        <label for="">datetime:</label>
+        <input type="datetime-local" name="" id=""><br><br>
+        <label for="">file:</label>
+        <input type="file" name="" id=""><br><br>
+        <label for="">month</label>
+        <input type="month" name="" id=""><br><br>
+        <label for="">number:</label>
+        <input type="number" name="" id=""><br><br>
+
+        <input type="submit" value="submit"><br>
+        <br>
+        <input type="button" value="click"><br><br>
+    </form><br><br>
+    <label for="">message:</label>
+    <textarea name="" id="" cols="20" rows="5"></textarea><br><br>
+    
+    <label for="">selectoppt:</label>
+    <select name="" id="">
+        <option value="html">html</option>
+        <option value="css">css</option>
+        <option value="js">js</option>
+    </select>
+    <br><br>
+    <select name="" id="">
+        <optgroup label="coures">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="js">js</option>
+
+        </optgroup>
+        <optgroup label="fw">
+            <option value="react">react</option>
+            <option value="angeral">angeral</option>
+        </optgroup>
+    </select>
+
+    <br><br><br>
+
+    <div>
+        <form action="">
+            <fieldset>
+            <legend>info</legend>
+            <label for="name">name:</label>
+            <input type="text" name="myname" id="name"><br>
+            <label for="password">password:</label>
+            <input type="password" name="pass" id="password">
+            </fieldset>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <!--html5 Tags-->
+       <!--section and artical-->
+    <section>
+        <h2>movies</h2><hr>
+        <article>
+            <h3>hollywood movies</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nihil, adipisci necessitatibus maxime voluptatem possimus iste veritatis velit. Velit, iusto.</p>
+        </article>
+        <article>
+            <h3>tollywood</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel, perferendis amet odit fuga earum, deserunt, rem at tempore quaerat laudantium asperiores eveniet maxime. Quo accusamus nemo atque libero quod.0</p>
+        </article>
+        <br>
+    </section><br><hr><br>
+
+      <!--header and fotter-->
+    <header>
+        <h2>movies hub</h2>
+    </header>
+    <section>
+        <h2>movies</h2><br>
+        <article>
+            <h3>hollywood movies</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nihil, adipisci necessitatibus maxime voluptatem possimus iste veritatis velit. Velit, iusto.</p>
+        </article><br>
+        <article>
+            <h3>tollywood</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel, perferendis amet odit fuga earum, deserunt, rem at tempore quaerat laudantium asperiores eveniet maxime. Quo accusamus nemo atque libero quod.0</p>
+        </article>
+        <br>
+    </section>
+    <footer>
+        <h3>coppyright 2022 <span>all righrts resived</span></h3>
+    </footer>
+    <br><hr><br>
+    <!--aside tag-->
+    <!--nav tag-->
+    <!--figure and figcaption-->
+    <!--datalist and summery tags-->
+    <details>
+        <summary>what is html</summary>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor provident nulla impedit excepturi? Illum nesciunt suscipit eum natus esse est, qui dolores obcaecati dicta sit atque, possimus neque repellendus quia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, itaque.</p>
+        </div>
+    </details>
+    <br><br><br><hr>
+
+
+
+
+</body>
+</html>
